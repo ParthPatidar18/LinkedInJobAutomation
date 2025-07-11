@@ -6,7 +6,7 @@ let isAutomationRunning = false;
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "startAutomation") {
     isAutomationRunning = true;
-    console.log("Automation started.....");
+    console.log("Automation started!!!.....");
 
     // You can add the job search, connection, or LinkedIn logic here
     // For example: startJobSearch() or startSendingMessages()
